@@ -16,3 +16,13 @@ jobs:
     steps:
       - name: Run
         run: docker run -e NUM=32 ngthvan1612/bench-test:v3
+
+  build-1:
+    runs-on: ubuntu-latest
+
+    container:
+      image: docker:stable
+    steps:
+      - name: Run
+        run: docker run -e NUM=32 ngthvan1612/bench-test:v3
+
