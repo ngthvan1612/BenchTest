@@ -21,9 +21,7 @@ jobs:
     runs-on: ubuntu-latest
 
     container:
-      image: ngthvan1612/bench-test:v3
-      env:
-        NUM: 32
+      image: docker:stable
     steps:
       - name: Run
-        run: pnpm prod
+        run: docker run -e NUM=32 ngthvan1612/bench-test:v3
