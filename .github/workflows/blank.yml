@@ -24,3 +24,6 @@ jobs:
       image: ngthvan1612/bench-test:v3
       env:
         NUM: 32
+    steps:
+      - name: Check for dockerenv file
+        run: (ls /.dockerenv && echo Found dockerenv) || (echo No dockerenv)
