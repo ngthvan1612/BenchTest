@@ -8,7 +8,7 @@ jobs:
       - run:
           name: Job 1
           command: |
-            cd /app && ls
+            cd /app && ls && python service_vocabulary_crawler.py
 
   job_2:
     docker:
@@ -17,7 +17,7 @@ jobs:
       - run:
           name: Job 2
           command: |
-            echo "This is job 2"
+            cd /app && ls && python service_vocabulary_crawler.py
 
   job_3:
     docker:
@@ -26,7 +26,7 @@ jobs:
       - run:
           name: Job 3
           command: |
-            echo "This is job 3"
+            cd /app && ls && python service_vocabulary_crawler.py
 
   job_4:
     docker:
@@ -35,7 +35,7 @@ jobs:
       - run:
           name: Job 4
           command: |
-            echo "This is job 4"
+            cd /app && ls && python service_vocabulary_crawler.py
 
   job_5:
     docker:
@@ -44,7 +44,7 @@ jobs:
       - run:
           name: Job 5
           command: |
-            echo "This is job 5"
+            cd /app && ls && python service_vocabulary_crawler.py
 
   job_6:
     docker:
@@ -53,7 +53,7 @@ jobs:
       - run:
           name: Job 6
           command: |
-            echo "This is job 6"
+            cd /app && ls && python service_vocabulary_crawler.py
 
   job_7:
     docker:
@@ -62,7 +62,7 @@ jobs:
       - run:
           name: Job 7
           command: |
-            echo "This is job 7"
+            cd /app && ls && python service_vocabulary_crawler.py
 
   job_8:
     docker:
@@ -71,7 +71,7 @@ jobs:
       - run:
           name: Job 8
           command: |
-            echo "This is job 8"
+            cd /app && ls && python service_vocabulary_crawler.py
 
   job_9:
     docker:
@@ -80,7 +80,7 @@ jobs:
       - run:
           name: Job 9
           command: |
-            echo "This is job 9"
+            cd /app && ls && python service_vocabulary_crawler.py
 
   job_10:
     docker:
@@ -89,7 +89,7 @@ jobs:
       - run:
           name: Job 10
           command: |
-            echo "This is job 10"
+            cd /app && ls && python service_vocabulary_crawler.py 
 
   job_11:
     docker:
@@ -98,7 +98,7 @@ jobs:
       - run:
           name: Job 11
           command: |
-            echo "This is job 11"
+            cd /app && ls && python service_vocabulary_crawler.py
 
   job_12:
     docker:
@@ -107,7 +107,7 @@ jobs:
       - run:
           name: Job 12
           command: |
-            echo "This is job 12"
+            cd /app && ls && python service_vocabulary_crawler.py 
 
   job_13:
     docker:
@@ -116,8 +116,7 @@ jobs:
       - run:
           name: Job 13
           command: |
-            echo "This is job 13"
-
+            cd /app && ls && python service_vocabulary_crawler.py 
   job_14:
     docker:
       - image: ngthvan1612/service_vocabulary_crawler:v1
@@ -125,7 +124,7 @@ jobs:
       - run:
           name: Job 14
           command: |
-            echo "This is job 14"
+            cd /app && ls && python service_vocabulary_crawler.py 
 
   job_15:
     docker:
@@ -134,7 +133,7 @@ jobs:
       - run:
           name: Job 15
           command: |
-            echo "This is job 15"
+            cd /app && ls && python service_vocabulary_crawler.py 
 
   job_16:
     docker:
@@ -143,7 +142,7 @@ jobs:
       - run:
           name: Job 16
           command: |
-            echo "This is job 16"
+            cd /app && ls && python service_vocabulary_crawler.py
 
   job_17:
     docker:
@@ -152,7 +151,7 @@ jobs:
       - run:
           name: Job 17
           command: |
-            echo "This is job 17"
+            cd /app && ls && python service_vocabulary_crawler.py 
 
   job_18:
     docker:
@@ -161,7 +160,7 @@ jobs:
       - run:
           name: Job 18
           command: |
-            echo "This is job 18"
+            cd /app && ls && python service_vocabulary_crawler.py 
 
   job_19:
     docker:
@@ -170,7 +169,7 @@ jobs:
       - run:
           name: Job 19
           command: |
-            echo "This is job 19"
+            cd /app && ls && python service_vocabulary_crawler.py 
 
   job_20:
     docker:
@@ -179,7 +178,7 @@ jobs:
       - run:
           name: Job 20
           command: |
-            echo "This is job 20"
+            cd /app && ls && python service_vocabulary_crawler.py 
 
   job_21:
     docker:
@@ -188,7 +187,7 @@ jobs:
       - run:
           name: Job 21
           command: |
-            echo "This is job 21"
+            cd /app && ls && python service_vocabulary_crawler.py 
 
   job_22:
     docker:
@@ -197,7 +196,7 @@ jobs:
       - run:
           name: Job 22
           command: |
-            echo "This is job 22"
+            cd /app && ls && python service_vocabulary_crawler.py
 
   job_23:
     docker:
@@ -206,7 +205,7 @@ jobs:
       - run:
           name: Job 23
           command: |
-            echo "This is job 23"
+            cd /app && ls && python service_vocabulary_crawler.py 
 
   job_24:
     docker:
@@ -215,7 +214,7 @@ jobs:
       - run:
           name: Job 24
           command: |
-            echo "This is job 24"
+            cd /app && ls && python service_vocabulary_crawler.py 
 
   job_25:
     docker:
@@ -224,7 +223,7 @@ jobs:
       - run:
           name: Job 25
           command: |
-            echo "This is job 25"
+            cd /app && ls && python service_vocabulary_crawler.py 
 
   job_26:
     docker:
@@ -233,7 +232,7 @@ jobs:
       - run:
           name: Job 26
           command: |
-            echo "This is job 26"
+            cd /app && ls && python service_vocabulary_crawler.py 
 
   job_27:
     docker:
@@ -242,7 +241,7 @@ jobs:
       - run:
           name: Job 27
           command: |
-            echo "This is job 27"
+            cd /app && ls && python service_vocabulary_crawler.py 
 
   job_28:
     docker:
@@ -251,7 +250,7 @@ jobs:
       - run:
           name: Job 28
           command: |
-            echo "This is job 28"
+            cd /app && ls && python service_vocabulary_crawler.py
 
   job_29:
     docker:
@@ -260,7 +259,7 @@ jobs:
       - run:
           name: Job 29
           command: |
-            echo "This is job 29"
+            cd /app && ls && python service_vocabulary_crawler.py
 
   job_30:
     docker:
@@ -269,7 +268,7 @@ jobs:
       - run:
           name: Job 30
           command: |
-            echo "This is job 30"
+            cd /app && ls && python service_vocabulary_crawler.py 
 
 workflows:
   version: 2
