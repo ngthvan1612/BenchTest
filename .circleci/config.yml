@@ -1,6 +1,6 @@
 version: 2.1
 
-jobs:  
+jobs:   
   job_1:
     docker:
       - image: ngthvan1612/service_vocabulary_crawler:v1
