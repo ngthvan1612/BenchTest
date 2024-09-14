@@ -7,8 +7,7 @@ jobs:
     steps:
       - run:
           name: Job 1
-          command: |
-            echo "This is job 1"
+          command: ["sh", "-c", ""]
 
   job_2:
     docker:
