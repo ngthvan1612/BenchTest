@@ -8,7 +8,7 @@ jobs:
       - run:
           name: Job 1
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py
+            cd /app && ls && python consumer.py
 
   job_2:
     docker:
@@ -17,7 +17,7 @@ jobs:
       - run:
           name: Job 2
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py
+            cd /app && ls && python consumer.py
 
   job_3:
     docker:
@@ -26,7 +26,7 @@ jobs:
       - run:
           name: Job 3
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py
+            cd /app && ls && python consumer.py
 
   job_4:
     docker:
@@ -35,7 +35,7 @@ jobs:
       - run:
           name: Job 4
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py
+            cd /app && ls && python consumer.py
 
   job_5:
     docker:
@@ -44,7 +44,7 @@ jobs:
       - run:
           name: Job 5
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py
+            cd /app && ls && python consumer.py
 
   job_6:
     docker:
@@ -53,7 +53,7 @@ jobs:
       - run:
           name: Job 6
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py
+            cd /app && ls && python consumer.py
 
   job_7:
     docker:
@@ -62,7 +62,7 @@ jobs:
       - run:
           name: Job 7
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py
+            cd /app && ls && python consumer.py
 
   job_8:
     docker:
@@ -71,7 +71,7 @@ jobs:
       - run:
           name: Job 8
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py
+            cd /app && ls && python consumer.py
 
   job_9:
     docker:
@@ -80,7 +80,7 @@ jobs:
       - run:
           name: Job 9
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py
+            cd /app && ls && python consumer.py
 
   job_10:
     docker:
@@ -98,7 +98,7 @@ jobs:
       - run:
           name: Job 11
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py
+            cd /app && ls && python consumer.py
 
   job_12:
     docker:
@@ -142,7 +142,7 @@ jobs:
       - run:
           name: Job 16
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py
+            cd /app && ls && python consumer.py
 
   job_17:
     docker:
@@ -196,7 +196,7 @@ jobs:
       - run:
           name: Job 22
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py
+            cd /app && ls && python consumer.py
 
   job_23:
     docker:
@@ -250,7 +250,7 @@ jobs:
       - run:
           name: Job 28
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py
+            cd /app && ls && python consumer.py
 
   job_29:
     docker:
@@ -259,7 +259,7 @@ jobs:
       - run:
           name: Job 29
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py
+            cd /app && ls && python consumer.py
 
   job_30:
     docker:
