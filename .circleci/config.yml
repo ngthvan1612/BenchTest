@@ -3,7 +3,7 @@ version: 2.1
 jobs:   
   job_1:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 1
@@ -12,7 +12,7 @@ jobs:
 
   job_2:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 2
@@ -21,7 +21,7 @@ jobs:
 
   job_3:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 3
@@ -30,7 +30,7 @@ jobs:
 
   job_4:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 4
@@ -39,7 +39,7 @@ jobs:
 
   job_5:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 5
@@ -48,7 +48,7 @@ jobs:
 
   job_6:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 6
@@ -57,7 +57,7 @@ jobs:
 
   job_7:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 7
@@ -66,7 +66,7 @@ jobs:
 
   job_8:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 8
@@ -75,7 +75,7 @@ jobs:
 
   job_9:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 9
@@ -84,16 +84,16 @@ jobs:
 
   job_10:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 10
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py 
+            cd /app && ls && python consumer.py
 
   job_11:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 11
@@ -102,42 +102,42 @@ jobs:
 
   job_12:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 12
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py 
+            cd /app && ls && python consumer.py
 
   job_13:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 13
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py 
+            cd /app && ls && python consumer.py
   job_14:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 14
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py 
+            cd /app && ls && python consumer.py
 
   job_15:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 15
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py 
+            cd /app && ls && python consumer.py
 
   job_16:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 16
@@ -146,52 +146,52 @@ jobs:
 
   job_17:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 17
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py 
+            cd /app && ls && python consumer.py
 
   job_18:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 18
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py 
+            cd /app && ls && python consumer.py
 
   job_19:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 19
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py 
+            cd /app && ls && python consumer.py
 
   job_20:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 20
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py 
+            cd /app && ls && python consumer.py
 
   job_21:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 21
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py 
+            cd /app && ls && python consumer.py
 
   job_22:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 22
@@ -200,52 +200,52 @@ jobs:
 
   job_23:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 23
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py 
+            cd /app && ls && python consumer.py
 
   job_24:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 24
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py 
+            cd /app && ls && python consumer.py
 
   job_25:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 25
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py 
+            cd /app && ls && python consumer.py
 
   job_26:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 26
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py 
+            cd /app && ls && python consumer.py
 
   job_27:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 27
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py 
+            cd /app && ls && python consumer.py
 
   job_28:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 28
@@ -254,7 +254,7 @@ jobs:
 
   job_29:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 29
@@ -263,12 +263,12 @@ jobs:
 
   job_30:
     docker:
-      - image: ngthvan1612/service_vocabulary_crawler:v1
+      - image: ngthvan1612/consumer-backup:v1
     steps:
       - run:
           name: Job 30
           command: |
-            cd /app && ls && python service_vocabulary_crawler.py 
+            cd /app && ls && python consumer.py
 
 workflows:
   version: 2
