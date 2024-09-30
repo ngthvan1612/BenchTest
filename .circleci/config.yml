@@ -8,7 +8,7 @@ jobs:
       - run:
           name: Job 1
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_2:
     docker:
@@ -17,7 +17,7 @@ jobs:
       - run:
           name: Job 2
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_3:
     docker:
@@ -26,7 +26,7 @@ jobs:
       - run:
           name: Job 3
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_4:
     docker:
@@ -35,7 +35,7 @@ jobs:
       - run:
           name: Job 4
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_5:
     docker:
@@ -44,7 +44,7 @@ jobs:
       - run:
           name: Job 5
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_6:
     docker:
@@ -53,7 +53,7 @@ jobs:
       - run:
           name: Job 6
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_7:
     docker:
@@ -62,7 +62,7 @@ jobs:
       - run:
           name: Job 7
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_8:
     docker:
@@ -71,7 +71,7 @@ jobs:
       - run:
           name: Job 8
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_9:
     docker:
@@ -80,7 +80,7 @@ jobs:
       - run:
           name: Job 9
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_10:
     docker:
@@ -89,7 +89,7 @@ jobs:
       - run:
           name: Job 10
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_11:
     docker:
@@ -98,7 +98,7 @@ jobs:
       - run:
           name: Job 11
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_12:
     docker:
@@ -107,7 +107,7 @@ jobs:
       - run:
           name: Job 12
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_13:
     docker:
@@ -116,7 +116,7 @@ jobs:
       - run:
           name: Job 13
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
   job_14:
     docker:
       - image: ngthvan1612/hack-view-youtube:v1
@@ -124,7 +124,7 @@ jobs:
       - run:
           name: Job 14
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_15:
     docker:
@@ -133,7 +133,7 @@ jobs:
       - run:
           name: Job 15
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_16:
     docker:
@@ -142,7 +142,7 @@ jobs:
       - run:
           name: Job 16
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_17:
     docker:
@@ -151,7 +151,7 @@ jobs:
       - run:
           name: Job 17
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_18:
     docker:
@@ -160,7 +160,7 @@ jobs:
       - run:
           name: Job 18
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_19:
     docker:
@@ -169,7 +169,7 @@ jobs:
       - run:
           name: Job 19
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_20:
     docker:
@@ -178,7 +178,7 @@ jobs:
       - run:
           name: Job 20
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_21:
     docker:
@@ -187,7 +187,7 @@ jobs:
       - run:
           name: Job 21
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_22:
     docker:
@@ -196,7 +196,7 @@ jobs:
       - run:
           name: Job 22
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_23:
     docker:
@@ -205,7 +205,7 @@ jobs:
       - run:
           name: Job 23
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_24:
     docker:
@@ -214,7 +214,7 @@ jobs:
       - run:
           name: Job 24
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_25:
     docker:
@@ -223,7 +223,7 @@ jobs:
       - run:
           name: Job 25
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_26:
     docker:
@@ -232,7 +232,7 @@ jobs:
       - run:
           name: Job 26
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_27:
     docker:
@@ -241,7 +241,7 @@ jobs:
       - run:
           name: Job 27
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_28:
     docker:
@@ -250,7 +250,7 @@ jobs:
       - run:
           name: Job 28
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_29:
     docker:
@@ -259,7 +259,7 @@ jobs:
       - run:
           name: Job 29
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
   job_30:
     docker:
@@ -268,7 +268,7 @@ jobs:
       - run:
           name: Job 30
           command: |
-            cd /app && ls && python consumer.py
+            cd /app && ls && pnpm prod
 
 workflows:
   version: 2
