@@ -3,272 +3,272 @@ version: 2.1
 jobs:   
   job_1:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 1
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_2:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 2
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_3:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 3
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_4:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 4
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_5:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 5
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_6:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 6
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_7:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 7
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_8:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 8
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_9:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 9
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_10:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 10
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_11:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 11
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_12:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 12
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_13:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 13
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
   job_14:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 14
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_15:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 15
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_16:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 16
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_17:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 17
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_18:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 18
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_19:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 19
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_20:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 20
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_21:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 21
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_22:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 22
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_23:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 23
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_24:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 24
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_25:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 25
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_26:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 26
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_27:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 27
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_28:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 28
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_29:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 29
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
   job_30:
     docker:
-      - image: ngthvan1612/hack-view-youtube:v1
+      - image: ngthvan1612/test-01:v7
     steps:
       - run:
           name: Job 30
           command: |
-            cd /app && ls && pnpm prod
+            cd /app && ls && python hack-view.py
 
 workflows:
   version: 2
