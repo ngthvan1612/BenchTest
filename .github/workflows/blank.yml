@@ -112,14 +112,14 @@ jobs:
       image: docker:stable
     steps:
       - name: Run
-        run: docker run -e NUMBER_OF_THREADS=16 ngthvan1612/ct-full:link_extractor
+        run: docker run -e NUMBER_OF_THREADS=16 ngthvan1612/ct-full:fetcher
   build-15:
     runs-on: ubuntu-20.04
     container:
       image: docker:stable
     steps:
       - name: Run
-        run: docker run -e NUMBER_OF_THREADS=16 ngthvan1612/ct-full:link_extractor
+        run: docker run -e NUMBER_OF_THREADS=16 ngthvan1612/ct-full:fetcher
   build-16:
     runs-on: ubuntu-20.04
     container:
