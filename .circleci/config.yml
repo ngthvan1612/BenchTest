@@ -3,272 +3,272 @@ version: 2.1
 jobs:   
   job_1:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:link_extractor
     steps:
       - run:
           name: Job 1
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py link-extractor
 
   job_2:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:link_extractor
     steps:
       - run:
           name: Job 2
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py link-extractor
 
   job_3:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:link_extractor
     steps:
       - run:
           name: Job 3
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py link-extractor
 
   job_4:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:link_extractor
     steps:
       - run:
           name: Job 4
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py link-extractor
 
   job_5:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:link_extractor
     steps:
       - run:
           name: Job 5
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py link-extractor
 
   job_6:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:link_extractor
     steps:
       - run:
           name: Job 6
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py link-extractor
 
   job_7:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:link_extractor
     steps:
       - run:
           name: Job 7
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py link-extractor
 
   job_8:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher
     steps:
       - run:
           name: Job 8
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py fetcher
 
   job_9:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher
     steps:
       - run:
           name: Job 9
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py fetcher
 
   job_10:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher
     steps:
       - run:
           name: Job 10
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py fetcher
 
   job_11:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher
     steps:
       - run:
           name: Job 11
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py fetcher
 
   job_12:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher
     steps:
       - run:
           name: Job 12
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py fetcher
 
   job_13:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher
     steps:
       - run:
           name: Job 13
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py fetcher
   job_14:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher
     steps:
       - run:
           name: Job 14
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py fetcher
 
   job_15:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher
     steps:
       - run:
           name: Job 15
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py fetcher
 
   job_16:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher
     steps:
       - run:
           name: Job 16
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py fetcher
 
   job_17:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher
     steps:
       - run:
           name: Job 17
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py fetcher
 
   job_18:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher
     steps:
       - run:
           name: Job 18
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py fetcher
 
   job_19:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher:storage
     steps:
       - run:
           name: Job 19
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py storage run
 
   job_20:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher:storage
     steps:
       - run:
           name: Job 20
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py storage run
 
   job_21:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher:storage
     steps:
       - run:
           name: Job 21
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py storage run
 
   job_22:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher:storage
     steps:
       - run:
           name: Job 22
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py storage run
 
   job_23:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher:storage
     steps:
       - run:
           name: Job 23
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py storage run
 
   job_24:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher:storage
     steps:
       - run:
           name: Job 24
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py storage run
 
   job_25:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher:storage
     steps:
       - run:
           name: Job 25
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py storage run
 
   job_26:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher:storage
     steps:
       - run:
           name: Job 26
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py storage run
 
   job_27:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:fetcher:storage
     steps:
       - run:
           name: Job 27
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py storage run
 
   job_28:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:link_extractor
     steps:
       - run:
           name: Job 28
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py link-extractor
 
   job_29:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:link_extractor
     steps:
       - run:
           name: Job 29
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py link-extractor
 
   job_30:
     docker:
-      - image: ngthvan1612/test-01:v7
+      - image: ngthvan1612/ct-full:link_extractor
     steps:
       - run:
           name: Job 30
           command: |
-            cd /app && ls && python hack-view.py
+            cd /app && ls && python main.py link-extractor
 
 workflows:
   version: 2
