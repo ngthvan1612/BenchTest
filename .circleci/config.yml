@@ -164,7 +164,7 @@ jobs:
 
   job_19:
     docker:
-      - image: ngthvan1612/ct-full:fetcher:storage
+      - image: ngthvan1612/ct-full:storage
     steps:
       - run:
           name: Job 19
@@ -173,7 +173,7 @@ jobs:
 
   job_20:
     docker:
-      - image: ngthvan1612/ct-full:fetcher:storage
+      - image: ngthvan1612/ct-full:storage
     steps:
       - run:
           name: Job 20
@@ -182,7 +182,7 @@ jobs:
 
   job_21:
     docker:
-      - image: ngthvan1612/ct-full:fetcher:storage
+      - image: ngthvan1612/ct-full:storage
     steps:
       - run:
           name: Job 21
@@ -191,7 +191,7 @@ jobs:
 
   job_22:
     docker:
-      - image: ngthvan1612/ct-full:fetcher:storage
+      - image: ngthvan1612/ct-full:storage
     steps:
       - run:
           name: Job 22
@@ -200,7 +200,7 @@ jobs:
 
   job_23:
     docker:
-      - image: ngthvan1612/ct-full:fetcher:storage
+      - image: ngthvan1612/ct-full:storage
     steps:
       - run:
           name: Job 23
@@ -209,7 +209,7 @@ jobs:
 
   job_24:
     docker:
-      - image: ngthvan1612/ct-full:fetcher:storage
+      - image: ngthvan1612/ct-full:storage
     steps:
       - run:
           name: Job 24
@@ -218,7 +218,7 @@ jobs:
 
   job_25:
     docker:
-      - image: ngthvan1612/ct-full:fetcher:storage
+      - image: ngthvan1612/ct-full:storage
     steps:
       - run:
           name: Job 25
@@ -227,7 +227,7 @@ jobs:
 
   job_26:
     docker:
-      - image: ngthvan1612/ct-full:fetcher:storage
+      - image: ngthvan1612/ct-full:storage
     steps:
       - run:
           name: Job 26
@@ -236,7 +236,7 @@ jobs:
 
   job_27:
     docker:
-      - image: ngthvan1612/ct-full:fetcher:storage
+      - image: ngthvan1612/ct-full:storage
     steps:
       - run:
           name: Job 27
