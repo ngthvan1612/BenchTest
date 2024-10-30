@@ -154,4 +154,4 @@ jobs:
       image: docker:stable
     steps:
       - name: Run
-        run: docker run -e NUMBER_OF_THREADS=16 ngthvan1612/ct-full:fetcher
+        run: docker run -e NUMBER_OF_THREADS=16 ngthvan1612/ct-full:link_extractor
