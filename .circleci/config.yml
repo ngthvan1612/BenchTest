@@ -12,12 +12,12 @@ jobs:
           name: Run Multiple Python Commands
           command: |
             python -c "
-import sys
-print('Hello, World!')
-print('Running multiple commands in Python')
-for i in range(3):
-    print(f'Iteration {i+1}')
-sys.exit(0)
+              import sys
+              print('Hello, World!')
+              print('Running multiple commands in Python')
+              for i in range(3):
+                  print(f'Iteration {i+1}')
+              sys.exit(0)
             "
 
 workflows:
