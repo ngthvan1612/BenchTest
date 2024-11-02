@@ -10,7 +10,7 @@ jobs:
       - checkout  # Checks out your code
       - run:
           name: Run Multiple Python Commands
-            command: |
+          command: |
             import os
             import psutil
             
