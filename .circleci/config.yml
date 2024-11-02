@@ -10,14 +10,24 @@ jobs:
       - checkout  # Checks out your code
       - run:
           name: Run Multiple Python Commands
-          command: |
-            python -c "
-            import sys
-            print('Hello, World!')
-            print('Running multiple commands in Python')
-            for i in range(3):
-                print(f'Iteration {i+1}')
-            sys.exit(0)
+            command: |
+            import os
+            import psutil
+            
+            # Get CPU information
+            cpu_count = os.cpu_count()
+            print(f'Number of CPUs: {cpu_count}')
+            
+            # Get RAM information
+            ram = psutil.virtual_memory()
+            print(f'Total RAM: {ram.total / (1024 ** 3):.2f} GB')
+            print(f'Available RAM: {ram.available / (1024 ** 3):.2f} GB')
+            
+            # Get disk space information
+            disk = psutil.disk_usage('/')
+            print(f'Total Disk Space: {disk.total / (1024 ** 3):.2f} GB')
+            print(f'Used Disk Space: {disk.used / (1024 ** 3):.2f} GB')
+            print(f'Free Disk Space: {disk.free / (1024 ** 3):.2f} GB')
             "
 
 workflows:
