@@ -3,40 +3,49 @@
 version: 2.1
 
 jobs:
-  say-hello:
+  system-info:
     docker:
       - image: circleci/python:3.9  # Choose the appropriate Python version
     steps:
       - checkout  # Checks out your code
       - run:
-          name: Run Multiple Python Commands
+          name: Install Dependencies
           command: |
+            sudo apt-get update
+            sudo apt-get install -y xvfb
+            pip install psutil  # If you need psutil for other tasks
+
+      - run:
+          name: Run Xvfb and Print System Information
+          command: |
+            xvfb-run python -c "
             import os
-            import psutil
+            import shutil
             
             # Get CPU information
             cpu_count = os.cpu_count()
             print(f'Number of CPUs: {cpu_count}')
             
-            # Get RAM information
-            ram = psutil.virtual_memory()
-            print(f'Total RAM: {ram.total / (1024 ** 3):.2f} GB')
-            print(f'Available RAM: {ram.available / (1024 ** 3):.2f} GB')
+            # Get RAM information using os and shell commands
+            with open('/proc/meminfo') as f:
+                lines = f.readlines()
+                mem_total_kb = int(lines[0].split()[1])
+                mem_free_kb = int(lines[1].split()[1])
+            print(f'Total RAM: {mem_total_kb / (1024 ** 2):.2f} GB')
+            print(f'Free RAM: {mem_free_kb / (1024 ** 2):.2f} GB')
             
-            # Get disk space information
-            disk = psutil.disk_usage('/')
-            print(f'Total Disk Space: {disk.total / (1024 ** 3):.2f} GB')
-            print(f'Used Disk Space: {disk.used / (1024 ** 3):.2f} GB')
-            print(f'Free Disk Space: {disk.free / (1024 ** 3):.2f} GB')
+            # Get disk space information using shutil
+            total, used, free = shutil.disk_usage('/')
+            print(f'Total Disk Space: {total / (1024 ** 3):.2f} GB')
+            print(f'Used Disk Space: {used / (1024 ** 3):.2f} GB')
+            print(f'Free Disk Space: {free / (1024 ** 3):.2f} GB')
             "
 
 workflows:
   version: 2
-  hello-world-workflow:
+  system-info-workflow:
     jobs:
-      - say-hello
-
-
+      - system-info
 
 # jobs:   
 #   job_1:
