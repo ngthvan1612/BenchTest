@@ -6,6 +6,7 @@ jobs:
   system-info:
     docker:
       - image: circleci/python:3.9  # Choose the appropriate Python version
+    resource_class: xlarge
     steps:
       - checkout  # Checks out your code
       - run:
