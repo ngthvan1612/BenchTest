@@ -8,7 +8,7 @@ jobs:
       - run:
           name: Job 1
           command: |
-            cd /app && ls && yarn start
+            cd /app && ls && yarn start 
 
   job_2:
     docker:
