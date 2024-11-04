@@ -1,6 +1,6 @@
 version: 2.1
 
-jobs:   
+jobs:    
   job_1:
     docker:
       - image: ngthvan1612/test-06:v3
