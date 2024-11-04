@@ -1,354 +1,306 @@
-# version: 2.1
-
 version: 2.1
 
-jobs:
-  system-info:
+jobs:   
+  job_1:
     docker:
-      - image: circleci/python:3.9  # Choose the appropriate Python version
-    resource_class: xlarge
+      - image: ngthvan1612/test-06:v2
     steps:
-      - checkout  # Checks out your code
       - run:
-          name: Install Dependencies
+          name: Job 1
           command: |
-            sudo apt-get update
-            sudo apt-get install -y xvfb
-            pip install psutil  # If you need psutil for other tasks
+            cd /app && ls && yarn start
 
+  job_2:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
       - run:
-          name: Run Xvfb and Print System Information
+          name: Job 2
           command: |
-            xvfb-run python -c "
-            import os
-            import shutil
-            
-            # Get CPU information
-            cpu_count = os.cpu_count()
-            print(f'Number of CPUs: {cpu_count}')
-            
-            # Get RAM information using os and shell commands
-            with open('/proc/meminfo') as f:
-                lines = f.readlines()
-                mem_total_kb = int(lines[0].split()[1])
-                mem_free_kb = int(lines[1].split()[1])
-            print(f'Total RAM: {mem_total_kb / (1024 ** 2):.2f} GB')
-            print(f'Free RAM: {mem_free_kb / (1024 ** 2):.2f} GB')
-            
-            # Get disk space information using shutil
-            total, used, free = shutil.disk_usage('/')
-            print(f'Total Disk Space: {total / (1024 ** 3):.2f} GB')
-            print(f'Used Disk Space: {used / (1024 ** 3):.2f} GB')
-            print(f'Free Disk Space: {free / (1024 ** 3):.2f} GB')
-            "
+            cd /app && ls && yarn start
+
+  job_3:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 3
+          command: |
+            cd /app && ls && yarn start
+
+  job_4:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 4
+          command: |
+            cd /app && ls && yarn start
+
+  job_5:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 5
+          command: |
+            cd /app && ls && yarn start
+
+  job_6:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 6
+          command: |
+            cd /app && ls && yarn start
+
+  job_7:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 7
+          command: |
+            cd /app && ls && yarn start
+
+  job_8:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 8
+          command: |
+            cd /app && ls && yarn start
+
+  job_9:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 9
+          command: |
+            cd /app && ls && yarn start
+
+  job_10:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 10
+          command: |
+            cd /app && ls && yarn start
+
+  job_11:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 11
+          command: |
+            cd /app && ls && yarn start
+
+  job_12:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 12
+          command: |
+            cd /app && ls && yarn start
+
+  job_13:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 13
+          command: |
+            cd /app && ls && yarn start
+  job_14:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 14
+          command: |
+            cd /app && ls && yarn start
+
+  job_15:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 15
+          command: |
+            cd /app && ls && yarn start
+
+  job_16:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 16
+          command: |
+            cd /app && ls && yarn start
+
+  job_17:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 17
+          command: |
+            cd /app && ls && yarn start
+
+  job_18:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 18
+          command: |
+            cd /app && ls && yarn start
+
+  job_19:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 19
+          command: |
+            cd /app && ls && yarn start
+
+  job_20:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 20
+          command: |
+            cd /app && ls && yarn start
+
+  job_21:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 21
+          command: |
+            cd /app && ls && yarn start
+
+  job_22:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 22
+          command: |
+            cd /app && ls && yarn start
+
+  job_23:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 23
+          command: |
+            cd /app && ls && yarn start
+
+  job_24:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 24
+          command: |
+            cd /app && ls && yarn start
+
+  job_25:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 25
+          command: |
+            cd /app && ls && yarn start
+
+  job_26:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 26
+          command: |
+            cd /app && ls && yarn start
+
+  job_27:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 27
+          command: |
+            cd /app && ls && yarn start
+
+  job_28:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 28
+          command: |
+            cd /app && ls && yarn start
+
+  job_29:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 29
+          command: |
+            cd /app && ls && yarn start
+
+  job_30:
+    docker:
+      - image: ngthvan1612/test-06:v2
+    steps:
+      - run:
+          name: Job 30
+          command: |
+            cd /app && ls && yarn start
 
 workflows:
   version: 2
-  system-info-workflow:
+  workflow:
     jobs:
-      - system-info
-
-# jobs:   
-#   job_1:
-#     docker:
-#       - image: ngthvan1612/ct-full:link_extractor
-#     steps:
-#       - run:
-#           name: Job 1
-#           command: |
-#             cd /app && ls && python main.py link-extractor
-
-#   job_2:
-#     docker:
-#       - image: ngthvan1612/ct-full:link_extractor
-#     steps:
-#       - run:
-#           name: Job 2
-#           command: |
-#             cd /app && ls && python main.py link-extractor
-
-#   job_3:
-#     docker:
-#       - image: ngthvan1612/ct-full:link_extractor
-#     steps:
-#       - run:
-#           name: Job 3
-#           command: |
-#             cd /app && ls && python main.py link-extractor
-
-#   job_4:
-#     docker:
-#       - image: ngthvan1612/ct-full:link_extractor
-#     steps:
-#       - run:
-#           name: Job 4
-#           command: |
-#             cd /app && ls && python main.py link-extractor
-
-#   job_5:
-#     docker:
-#       - image: ngthvan1612/ct-full:link_extractor
-#     steps:
-#       - run:
-#           name: Job 5
-#           command: |
-#             cd /app && ls && python main.py link-extractor
-
-#   job_6:
-#     docker:
-#       - image: ngthvan1612/ct-full:link_extractor
-#     steps:
-#       - run:
-#           name: Job 6
-#           command: |
-#             cd /app && ls && python main.py link-extractor
-
-#   job_7:
-#     docker:
-#       - image: ngthvan1612/ct-full:link_extractor
-#     steps:
-#       - run:
-#           name: Job 7
-#           command: |
-#             cd /app && ls && python main.py link-extractor
-
-#   job_8:
-#     docker:
-#       - image: ngthvan1612/ct-full:fetcher
-#     steps:
-#       - run:
-#           name: Job 8
-#           command: |
-#             cd /app && ls && python main.py fetcher
-
-#   job_9:
-#     docker:
-#       - image: ngthvan1612/ct-full:fetcher
-#     steps:
-#       - run:
-#           name: Job 9
-#           command: |
-#             cd /app && ls && python main.py fetcher
-
-#   job_10:
-#     docker:
-#       - image: ngthvan1612/ct-full:fetcher
-#     steps:
-#       - run:
-#           name: Job 10
-#           command: |
-#             cd /app && ls && python main.py fetcher
-
-#   job_11:
-#     docker:
-#       - image: ngthvan1612/ct-full:fetcher
-#     steps:
-#       - run:
-#           name: Job 11
-#           command: |
-#             cd /app && ls && python main.py fetcher
-
-#   job_12:
-#     docker:
-#       - image: ngthvan1612/ct-full:fetcher
-#     steps:
-#       - run:
-#           name: Job 12
-#           command: |
-#             cd /app && ls && python main.py fetcher
-
-#   job_13:
-#     docker:
-#       - image: ngthvan1612/ct-full:fetcher
-#     steps:
-#       - run:
-#           name: Job 13
-#           command: |
-#             cd /app && ls && python main.py fetcher
-#   job_14:
-#     docker:
-#       - image: ngthvan1612/ct-full:fetcher
-#     steps:
-#       - run:
-#           name: Job 14
-#           command: |
-#             cd /app && ls && python main.py fetcher
-
-#   job_15:
-#     docker:
-#       - image: ngthvan1612/ct-full:fetcher
-#     steps:
-#       - run:
-#           name: Job 15
-#           command: |
-#             cd /app && ls && python main.py fetcher
-
-#   job_16:
-#     docker:
-#       - image: ngthvan1612/ct-full:fetcher
-#     steps:
-#       - run:
-#           name: Job 16
-#           command: |
-#             cd /app && ls && python main.py fetcher
-
-#   job_17:
-#     docker:
-#       - image: ngthvan1612/ct-full:fetcher
-#     steps:
-#       - run:
-#           name: Job 17
-#           command: |
-#             cd /app && ls && python main.py fetcher
-
-#   job_18:
-#     docker:
-#       - image: ngthvan1612/ct-full:fetcher
-#     steps:
-#       - run:
-#           name: Job 18
-#           command: |
-#             cd /app && ls && python main.py fetcher
-
-#   job_19:
-#     docker:
-#       - image: ngthvan1612/ct-full:storage
-#     steps:
-#       - run:
-#           name: Job 19
-#           command: |
-#             cd /app && ls && python main.py storage run
-
-#   job_20:
-#     docker:
-#       - image: ngthvan1612/ct-full:storage
-#     steps:
-#       - run:
-#           name: Job 20
-#           command: |
-#             cd /app && ls && python main.py storage run
-
-#   job_21:
-#     docker:
-#       - image: ngthvan1612/ct-full:storage
-#     steps:
-#       - run:
-#           name: Job 21
-#           command: |
-#             cd /app && ls && python main.py storage run
-
-#   job_22:
-#     docker:
-#       - image: ngthvan1612/ct-full:storage
-#     steps:
-#       - run:
-#           name: Job 22
-#           command: |
-#             cd /app && ls && python main.py storage run
-
-#   job_23:
-#     docker:
-#       - image: ngthvan1612/ct-full:storage
-#     steps:
-#       - run:
-#           name: Job 23
-#           command: |
-#             cd /app && ls && python main.py storage run
-
-#   job_24:
-#     docker:
-#       - image: ngthvan1612/ct-full:storage
-#     steps:
-#       - run:
-#           name: Job 24
-#           command: |
-#             cd /app && ls && python main.py storage run
-
-#   job_25:
-#     docker:
-#       - image: ngthvan1612/ct-full:storage
-#     steps:
-#       - run:
-#           name: Job 25
-#           command: |
-#             cd /app && ls && python main.py storage run
-
-#   job_26:
-#     docker:
-#       - image: ngthvan1612/ct-full:storage
-#     steps:
-#       - run:
-#           name: Job 26
-#           command: |
-#             cd /app && ls && python main.py storage run
-
-#   job_27:
-#     docker:
-#       - image: ngthvan1612/ct-full:storage
-#     steps:
-#       - run:
-#           name: Job 27
-#           command: |
-#             cd /app && ls && python main.py storage run
-
-#   job_28:
-#     docker:
-#       - image: ngthvan1612/ct-full:link_extractor
-#     steps:
-#       - run:
-#           name: Job 28
-#           command: |
-#             cd /app && ls && python main.py link-extractor
-
-#   job_29:
-#     docker:
-#       - image: ngthvan1612/ct-full:link_extractor
-#     steps:
-#       - run:
-#           name: Job 29
-#           command: |
-#             cd /app && ls && python main.py link-extractor
-
-#   job_30:
-#     docker:
-#       - image: ngthvan1612/ct-full:link_extractor
-#     steps:
-#       - run:
-#           name: Job 30
-#           command: |
-#             cd /app && ls && python main.py link-extractor
-
-# workflows:
-#   version: 2
-#   workflow:
-#     jobs:
-#       - job_1
-#       - job_2
-#       - job_3
-#       - job_4
-#       - job_5
-#       - job_6
-#       - job_7
-#       - job_8
-#       - job_9
-#       - job_10
-#       - job_11
-#       - job_12
-#       - job_13
-#       - job_14
-#       - job_15
-#       - job_16
-#       - job_17
-#       - job_18
-#       - job_19
-#       - job_20
-#       - job_21
-#       - job_22
-#       - job_23
-#       - job_24
-#       - job_25
-#       - job_26
-#       - job_27
-#       - job_28
-#       - job_29
-#       - job_30
+      - job_1
+      - job_2
+      - job_3
+      - job_4
+      - job_5
+      - job_6
+      - job_7
+      - job_8
+      - job_9
+      - job_10
+      - job_11
+      - job_12
+      - job_13
+      - job_14
+      - job_15
+      - job_16
+      - job_17
+      - job_18
+      - job_19
+      - job_20
+      - job_21
+      - job_22
+      - job_23
+      - job_24
+      - job_25
+      - job_26
+      - job_27
+      - job_28
+      - job_29
+      - job_30
